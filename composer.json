@@ -1,5 +1,5 @@
 {
-  "name": "ondrs/sauto",
+  "name": "jancafourek/sauto",
   "type": "library",
   "description": "Sauto API PHP wrapper",
   "keywords": ["sauto", "php", "api", "wrapper"],
