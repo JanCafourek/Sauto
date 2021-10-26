@@ -268,9 +268,9 @@ class SautoApi
         usort($photos, function(QuickPhotoData $a, QuickPhotoData $b) {
             return $a->main === $b->main
                 ? 0
-                : $a->main < $b->main
+                : ($a->main < $b->main
                     ? -1
-                    : 1;
+                    : 1);
         });
 
         return $photos;
