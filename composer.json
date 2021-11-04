@@ -19,6 +19,7 @@
   },
   "require": {
     "php": ">= 7.2.0",
-    "lstrojny/fxmlrpc": "^0.22.0"
+    "lstrojny/fxmlrpc": "^0.22.0",
+    "guzzlehttp/psr7": "^2.1"
   }
 }
